@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 350px;
+            height: 200px;
+            padding: 20px 50px;
+            text-align: right;
+            border: 1px solid black;
+            margin-left: -50px;
+        }
+        input{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <section id="main">
+
+    </section> -->
+    <form action="" onsubmit="sendData(e)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required>
+        <br>
+        <label for="c_pass">Confirm password</label>
+        <input type="password" id="c_pass" required>
+        <br>
+        <input type="submit" name="" id="" value="Submit">
+    </form>
+    <script>
+        function sendData(e) {
+            e.preventDefault();
+            let username=document.getElementById("username").value;
+            console.log(username)
+        }
+    </script>
+    <!-- <script>
+        var tag=document.createElement("h1");
+        var text=document.createTextNode("hello world");
+        var main=document.getElementById("main")
+        var img=document.createElement("img")
+        img.src="https://tse2.mm.bing.net/th/id/OIP.4u4Tw9CkYzbyxgpeIj-IOQHaEc?pid=Api&P=0&h=180"
+        img.style.width="100px"
+        img.style.height="100px"
+        tag.appendChild(text)
+        main.appendChild(tag)
+        main.appendChild(img);
+
+    </script> -->
+</body>
+</html>
